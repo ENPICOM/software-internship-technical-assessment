@@ -9,14 +9,12 @@ it means we believe you're a promising internship candidate. However, programmin
 is hard to judge by just talking, so we would like to ask you to complete this small programming
 challenge.
 
-Please do not spend too much time on this - it should only take an hour or two at the maximum.
+Please do not spend too much time on this - it should only take an hour or two.
 
 ## General instructions
 
 Feel free to do this assignment in whatever programming language you're most comfortable with.
-If this is one of the languages in use by the software team at ENPICOM (TypeScript, Python, Rust)
-
-- even better!
+If this is one of the languages in use by the software team at ENPICOM (TypeScript, Python, Rust) - even better!
 
 To get started, please make a fork of this [Git](https://git-scm.com/) repository, and commit + push
 your code to the fork. When you have finished the assignment and made sure it works correctly, just
