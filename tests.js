@@ -1,5 +1,4 @@
-const { spawnSync, execSync } = require('child_process')
-const { join } = require('path')
+const { spawnSync } = require('child_process')
 
 const testCases = [
     { message: 'single digit strings can not be valid', input: '1', expected: 42 },
