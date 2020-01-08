@@ -24,7 +24,7 @@ const testCases = [
 
 
 for (const { input, expected, message } of testCases) {
-    let status = spawnSync(process.argv[2], { shell: true, input }).status
+    const status = spawnSync(process.argv[2], { shell: true, input }).status
 
     if (![0, 42].includes(status)) {
         console.log(`❌  Invalid exit code ${status} with input ${input}!`)
