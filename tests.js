@@ -25,12 +25,16 @@ for (const { input, expected, message } of testCases) {
     let status = spawnSync(process.argv[2], { shell: true, input }).status
 
     if (![0, 42].includes(status)) {
-        console.log(`Invalid exit code ${status} with input ${input}!\n${message}`)
+        console.log(`❌  Invalid exit code ${status} with input ${input}!`)
         process.exit(1)
     }
 
     if (expected !== status) {
-        console.log(`Tests failed with input ${input}!\n${message}`)
+        console.log(`❌  Input: "${input}", Status: ${status}, Expected: ${expected}\nℹ  Test description: ${message}`)
         process.exit(1)
     }
+
+    console.log(`✅  Input: "${input}", Status: ${status}`)
 }
+
+console.log('🎊  All tests passed successfully!')
