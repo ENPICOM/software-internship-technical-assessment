@@ -13,8 +13,9 @@ Please do not spend too much time on this - it should only take an hour or two.
 
 ## General instructions
 
-Feel free to do this assignment in whatever programming language you're most comfortable with.
-If this is one of the languages in use by the software team at ENPICOM (TypeScript, Python, Rust) - even better!
+We would like to ask you to complete this assignment using the [TypeScript](https://www.typescriptlang.org/) language, 
+since this is our main application development language at ENPICOM. 
+For running TypeScript code without having to compile it to JavaScript first, we recommend [ts-node](https://github.com/TypeStrong/ts-node).
 
 To get started, please make a fork of this [Git](https://git-scm.com/) repository, and commit + push
 your code to the fork. When you have finished the assignment and made sure it works correctly, just
@@ -37,17 +38,12 @@ You can run the tests from the root of the repository as follows:
 $ node tests.js '<your-application-command>'
 ```
 
-For example, if you chose to work in Python, this would be something like:
+For example, if you use ts-node to run your application, this would be something like:
 
 ```bash
-$ node tests.js 'python luhn.py'
+$ node tests.js 'ts-node luhn.ts'
 ```
 
-Or in Java:
-
-```bash
-$ node tests.js 'java luhn'
-```
 
 ## Algorithm description
 
