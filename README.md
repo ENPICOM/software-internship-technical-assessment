@@ -1,6 +1,6 @@
-# bachelor-software-internship-assessment
+# software-internship-assessment
 
-A coding assessment to be done by ENPICOM bachelor software engineering internship candidates
+A coding assessment to be done by ENPICOM software engineering internship candidates
 
 ## Intro
 
