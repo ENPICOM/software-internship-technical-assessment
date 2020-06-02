@@ -24,6 +24,7 @@ send us the link to the repository you used.
 For this assignment, please create a command line application implementing the algorithm described
 in the next section. This application should:
 
+- print a message asking for the user to input a credit card number
 - accept a single string of text on STDIN (read until the end)
 - exit with status 0 _if_ the provided string is valid according to the algorithm
 - exit with status **42** otherwise
